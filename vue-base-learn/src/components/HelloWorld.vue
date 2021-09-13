@@ -7,7 +7,8 @@
 
     <!-- 计算属性 -->
     <!-- 应用场景-具有依赖关系的数据监听 -->
-    <div :class="[a1, a2]">
+    <!--  :class="[a1, a2]" -->
+    <div>
       借钱{{ totalMoney }},还钱{{ borrowMonry }},还剩{{ results }}
     </div>
   </div>
