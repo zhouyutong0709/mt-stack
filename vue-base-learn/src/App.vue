@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <PropsCom :children="parent" @patch="handleClick">
       <h3 slot="a">这是具名插槽</h3>
     </PropsCom>
+    <router-view></router-view>
   </div>
 </template>
 

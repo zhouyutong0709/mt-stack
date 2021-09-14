@@ -35,3 +35,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Vue 2.5
 - Element-UI 2。4.7
 - Robo 3T 1.2.1
+
+
+### 文档API
+- [Vue](https://cn.vuejs.org/v2/guide/installation.html)
+- [Vue Router](https://router.vuejs.org/zh/installation.html)
+- [Vue-cli](https://cli.vuejs.org/)
