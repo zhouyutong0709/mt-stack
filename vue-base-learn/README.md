@@ -41,3 +41,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Vue](https://cn.vuejs.org/v2/guide/installation.html)
 - [Vue Router](https://router.vuejs.org/zh/installation.html)
 - [Vue-cli](https://cli.vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/zh/guide/)
