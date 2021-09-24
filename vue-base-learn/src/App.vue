@@ -5,7 +5,9 @@
     <PropsCom :children="parent" @patch="handleClick">
       <h3 slot="a">这是具名插槽</h3>
     </PropsCom>
-    <Vuex />
+    <!-- <Vuex /> -->
+    <VuexA />
+    <VuexB />
     <router-view></router-view>
   </div>
 </template>
@@ -14,14 +16,18 @@
 import HelloWorld from './components/HelloWorld.vue'
 import './components/directive.js'
 import PropsCom from './components/props.vue'
-import Vuex from './components/vuex.vue'
+import VuexA from './components/vuexa.vue'
+import VuexB from './components/vuexb.vue'
+// import Vuex from './components/vuex.vue' 基础用例
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
     PropsCom,
-    Vuex
+    VuexA,
+    VuexB
+    // Vuex
   },
   data () {
     return {
